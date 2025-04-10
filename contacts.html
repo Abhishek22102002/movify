@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Page</title>
+  <link rel="stylesheet" href="./contacts.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <header>
+            <div id="header">
+              <div class="logo">
+                <img src="./logo-white.svg" alt="Movify Logo" />
+              </div>
+        
+              <!-- Hamburger Icon -->
+              <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+              </div>
+        
+              <!-- Navigation for Desktop -->
+              <nav class="navigation">
+                <a href="./index.html">Home</a>
+                
+                <a href="./movies&tvs.html">Movies & TV Shows</a>
+                <a href="./blog.html">Blog</a>
+                <a href="./contacts.html">Contact Us</a>
+              </nav>
+        
+              <div class="icon">
+                <i class="fas fa-search"></i>
+                <i class="fas fa-earth-americas"></i>
+                <button><a href="login.html" class="login-btn">LOGIN</a></button>
+              </div>
+            </div>
+          </header>
+          <div class="sidebar" id="sidebar">
+            <div class="close-btn" id="closeSidebar">
+              <i class="fas fa-times"></i>
+            </div>
+            <a href="#">Home</a>
+            <a href="#">Pages</a>
+            <a href="#">Movies & TV Shows</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact Us</a>
+          </div>
+          <!-- End of header -->
+          <main>
+            <section id="herosection">
+              <div id="slider">
+                <img src="./slider3.jpg" alt="Hero Image Not Found" />
+              </div>
+        
+              <div id="search">
+                <input type="text" placeholder="Enter Movies and Series Title" />
+                <button type="search"><i class="fas fa-search"></i></button>
+              </div>
+            </section>
+            <!-- End of herosection -->
+    </header>
+  <main>
+  <div class="container">
+    <div class="info-section">
+      <h2>Info</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+
+      <div class="contact-info">
+        <div class="info-block">
+          <i class="fas fa-phone-alt"></i>
+          <div>
+            <strong>Phone:</strong><br>(123) 123-456
+          </div>
+        </div>
+        <div class="info-block">
+          <i class="fas fa-fax"></i>
+          <div>
+            <strong>Fax:</strong><br>(123) 123-456
+          </div>
+        </div>
+        <div class="info-block">
+          <i class="fas fa-globe"></i>
+          <div>
+            <strong>Web:</strong><br>www.movify.com
+          </div>
+        </div>
+        <div class="info-block">
+          <i class="fas fa-paper-plane"></i>
+          <div>
+            <strong>E-Mail:</strong><br>info@movify.com
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-section">
+      <h2>Contact Form</h2>
+      <form>
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="your-email@movify.com">
+        <input type="text" placeholder="Subject">
+        <textarea placeholder="Type your message..."></textarea>
+        <button type="submit">SEND MESSAGE</button>
+      </form>
+    </div>
+  </div>
+</main>
+  <footer>
+    <section class="footer-container">
+      <div class="footer-box">
+        <img src="./logo-white.svg" alt="IMG Not Found" class="footer-logo" />
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque,
+          ducimus, atque. Praesentium suscipit provident explicabo dignissimos
+          nostrum numquam deserunt earum accusantium et fugit.
+        </p>
+      </div>
+  
+      <div class="footer-box">
+        <h2>Useful Links</h2>
+        <ul>
+          <li><a href="#">About Movify</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Forum</a></li>
+          <li><a href="#">My Account</a></li>
+          <li><a href="#">Watch List</a></li>
+        </ul>
+      </div>
+  
+      <div class="footer-box">
+        <h2>Latest News</h2>
+        <ul class="latest-news">
+          <li>
+            <a href="#">Blog Post 1</a>
+            <p>JANUARY 13, 2018</p>
+          </li>
+          <li>
+            <a href="#">Blog Post 2</a>
+            <p>JANUARY 13, 2018</p>
+          </li>
+          <li>
+            <a href="#">Blog Post 3</a>
+            <p>JANUARY 13, 2018</p>
+          </li>
+        </ul>
+      </div>
+  
+      <div class="footer-box">
+        <h2>Follow Us</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque,
+          ducimus, atque.
+        </p>
+        <div class="social-icons">
+          <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://plus.google.com" target="_blank"><i class="fab fa-google-plus-g"></i></a>
+          <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </section>
+  
+    <div class="footer-bottom">
+      <div class="footer-links">
+        <a href="#">Privacy & Cookies</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Legal Disclaimer</a>
+        <a href="#">Community</a>
+      </div>
+      <p>&copy; All Rights Reserved by Movify.</p>
+    </div>
+  </footer>
+  <script>
+    const hamburger = document.querySelector(".hamburger");
+const sidebar = document.querySelector(".sidebar");
+const closeBtn = document.querySelector(".close-btn");
+
+hamburger.addEventListener("click", () => {
+sidebar.classList.add("active");
+});
+
+closeBtn.addEventListener("click", () => {
+sidebar.classList.remove("active");
+});
+
+  </script>
+</body>
+</html>
