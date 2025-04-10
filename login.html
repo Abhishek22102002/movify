@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login Page</title>
+  <link rel="stylesheet" href="./login.css">
+</head>
+<body>
+
+<div class="modal-overlay">
+  <div class="modal">
+    <div class="modal-header">
+      <span class="close-btn">&times;</span>
+    </div>
+    <div class="modal-body">
+      <label for="username">Username or Email *</label>
+      <input type="text" id="username" placeholder="Your Username or Email *">
+
+      <label for="password">Password *</label>
+      <input type="password" id="password" placeholder="Your Password *">
+
+      <div class="checkbox-group">
+        <input type="checkbox" id="keepSignedIn">
+        <label for="keepSignedIn">Keep me signed in</label>
+      </div>
+
+      <button class="sign-in-btn">SIGN IN</button>
+    </div>
+    <div class="modal-footer">
+      <span>Not a member? <a href="#">Sign up</a></span>
+      <a href="#">Forgot Password</a>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
